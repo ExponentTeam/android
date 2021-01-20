@@ -3,8 +3,10 @@ package com.example.exponentandroid;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.EditText;
 
 public class registration_activity extends AppCompatActivity {
+    EditText email_edittext, password_edittext;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
