@@ -84,14 +84,4 @@
         app:layout_constraintTop_toBottomOf="@+id/login_button"
         app:layout_constraintVertical_bias="0.082" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:onClick="onClickButton3"
-        android:text="Button"
-        android:visibility="gone"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="667dp" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
