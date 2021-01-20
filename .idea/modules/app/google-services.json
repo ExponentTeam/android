@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "319690982435",
+    "firebase_url": "https://exponent-f2739-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "exponent-f2739",
+    "storage_bucket": "exponent-f2739.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319690982435:android:46bf97119a311cde7c5d96",
+        "android_client_info": {
+          "package_name": "com.example.exponentandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319690982435-jqebiq992095jero1bunig54v22ggbc4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.exponentandroid",
+            "certificate_hash": "84cdf3425d39c4f739704180063631b5f535117b"
+          }
+        },
+        {
+          "client_id": "319690982435-7sof3rgj7jn1ghj39tg9hmna32ur1jcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmZ_ig4QpUanlNhQF9x8ajS9qgVWWmHXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319690982435-7sof3rgj7jn1ghj39tg9hmna32ur1jcr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "319690982435-4jkr6h19do321b6544jl63tdib2dsvlu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "edu.self.test1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
