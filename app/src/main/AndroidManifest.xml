@@ -11,7 +11,14 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".menu_activity"
-            android:label="@string/title_activity_menu_activity"></activity>
+            android:label="@string/title_activity_menu_activity">
+            <intent-filter>
+                <action android:name="com.example.exponentandroid.menu_activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

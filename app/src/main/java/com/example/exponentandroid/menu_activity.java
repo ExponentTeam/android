@@ -1,5 +1,6 @@
 package com.example.exponentandroid;
 
+import android.app.Activity;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -10,7 +11,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-public class menu_activity extends AppCompatActivity {
+public class menu_activity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
