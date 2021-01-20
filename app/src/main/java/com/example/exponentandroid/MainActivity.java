@@ -59,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
             });
 
         }
+        else{
+            Toast.makeText(getApplicationContext(), "Fields cannot be empty!", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void OnClickSignUp(View view){
