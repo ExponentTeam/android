@@ -36,7 +36,8 @@
         android:id="@+id/login_button"
         android:layout_width="177dp"
         android:layout_height="67dp"
-        android:text="Log In"
+        android:onClick="OnClickSignIn"
+        android:text="Sign In"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -58,8 +59,8 @@
 
     <TextView
         android:id="@+id/carprotector_text"
-        android:layout_width="280dp"
-        android:layout_height="115dp"
+        android:layout_width="307dp"
+        android:layout_height="149dp"
         android:fontFamily="@font/iceland"
         android:gravity="center"
         android:text="CarProtector"
@@ -70,5 +71,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.86" />
+
+    <Button
+        android:id="@+id/registration_button"
+        android:layout_width="177dp"
+        android:layout_height="67dp"
+        android:onClick="OnClickSignUp"
+        android:text="Sign Up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_button"
+        app:layout_constraintVertical_bias="0.082" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
