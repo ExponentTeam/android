@@ -38,10 +38,10 @@ public class registration_activity extends AppCompatActivity {
     public void onClickRegistration(View view){
         String email = email2_edittext.getText().toString().trim();
         String pass = password2_edittext.getText().toString().trim();
-        String re_pass = password2_edittext.getText().toString().trim();
+        String re_pass = reenter_password2_edittext.getText().toString().trim();
         if (TextUtils.isEmpty(email)){
             if (TextUtils.isEmpty(pass)){
-                if (pass.equals(re_pass)){
+                if (!pass.equals(re_pass)){
                     password2_edittext.setError("Password is required field");
                     email2_edittext.setError("Email is required field");
                     reenter_password2_edittext.setError("Passwords do not match");
@@ -52,6 +52,14 @@ public class registration_activity extends AppCompatActivity {
                 return;
             }
             email2_edittext.setError("Email is required field");
+            return;
+        }
+        if (TextUtils.isEmpty(pass)){
+            password2_edittext.setError("Password is required field");
+            return;
+        }
+        if (!(pass.equals(re_pass))){
+            reenter_password2_edittext.setError("Passwords do not match");
             return;
         }
 
