@@ -4,42 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registration_activity">
+    tools:context=".registration_activity"
+    android:background="@drawable/welcome">
 
     <ImageView
-        android:id="@+id/logo_image2"
-        android:layout_width="145dp"
-        android:layout_height="125dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/email_edittext"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.119"
-        app:srcCompat="@drawable/car_protector" />
-
-    <TextView
-        android:id="@+id/carprotector_text3"
-        android:layout_width="409dp"
-        android:layout_height="156dp"
-        android:fontFamily="@font/iceland"
-        android:gravity="center"
-        android:text="CarProtector"
-        android:textSize="67dp"
-        android:textStyle="bold"
+        android:id="@+id/imageView"
+        android:layout_width="301dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243" />
+        app:layout_constraintTop_toBottomOf="@+id/password_edittext"
+        app:layout_constraintVertical_bias="0.063"
+        app:srcCompat="@drawable/password_image" />
 
     <EditText
         android:id="@+id/name_edittext"
-        android:layout_width="218dp"
-        android:layout_height="32dp"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
         android:background="@drawable/field"
         android:ems="10"
         android:hint=" Name"
+        android:textColorHint="#88889a"
+        android:textColor="#88889a"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,11 +37,13 @@
 
     <EditText
         android:id="@+id/surname_edittext"
-        android:layout_width="218dp"
-        android:layout_height="32dp"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
         android:background="@drawable/field"
         android:ems="10"
         android:hint=" Surname"
+        android:textColorHint="#88889a"
+        android:textColor="#88889a"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,11 +54,13 @@
 
     <EditText
         android:id="@+id/password2_edittext"
-        android:layout_width="218dp"
-        android:layout_height="32dp"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
         android:background="@drawable/field"
         android:ems="10"
         android:hint=" Password"
+        android:textColorHint="#88889a"
+        android:textColor="#88889a"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,11 +71,13 @@
 
     <EditText
         android:id="@+id/reenter_password2_edittext"
-        android:layout_width="218dp"
-        android:layout_height="32dp"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
         android:background="@drawable/field"
         android:ems="10"
         android:hint=" Re-enter password"
+        android:textColorHint="#88889a"
+        android:textColor="#88889a"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,11 +88,13 @@
 
     <EditText
         android:id="@+id/email2_edittext"
-        android:layout_width="218dp"
-        android:layout_height="32dp"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
         android:background="@drawable/field"
         android:ems="10"
         android:hint=" Email"
+        android:textColorHint="#88889a"
+        android:textColor="#88889a"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -109,11 +105,14 @@
 
     <Button
         android:id="@+id/registration2_button"
-        android:layout_width="173dp"
-        android:layout_height="64dp"
+        android:layout_width="283dp"
+        android:layout_height="40dp"
         android:background="@drawable/button"
         android:onClick="onClickRegistration"
         android:text="Registration"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#ccc0d1"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
