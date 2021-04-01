@@ -9,13 +9,15 @@
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         android:layout_width="wrap_content"
-        android:layout_height="642dp">
+        android:layout_height="742dp">
 
     </androidx.viewpager.widget.ViewPager>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+
         android:layout_width="match_parent"
-        android:layout_height="89dp">
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
