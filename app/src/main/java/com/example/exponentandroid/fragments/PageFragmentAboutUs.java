@@ -17,7 +17,6 @@ public class PageFragmentAboutUs extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, 
                              @Nullable ViewGroup container, 
                              @Nullable Bundle savedInstanceState) {
-        ViewGroup rootView = (ViewGroup)inflater.inflate(R.layout.about_us, container, false);
-        return rootView;
+        return (ViewGroup)inflater.inflate(R.layout.about_us, container, false);
     }
 }

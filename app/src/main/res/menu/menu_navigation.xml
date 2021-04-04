@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/cameras"
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        android:title="@string/cameras"/>
+    <item
+        android:id="@+id/jps"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/jps"/>
+    <item
+        android:id="@+id/car_info"
+        android:icon="@drawable/ic_baseline_directions_car_24"
+        android:title="@string/car_info"/>
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="@string/about_us"/>
+</menu>

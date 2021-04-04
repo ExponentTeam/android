@@ -19,7 +19,6 @@ public class PageFragmentCarInfo extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        ViewGroup rootView = (ViewGroup)inflater.inflate(R.layout.car_info, container, false);
-        return rootView;
+        return (ViewGroup)inflater.inflate(R.layout.car_info, container, false);
     }
 }

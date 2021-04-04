@@ -5,4 +5,8 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_parcing_activity">MainActivity</string>
+    <string name="cameras">Cameras</string>
+    <string name="jps">JPS</string>
+    <string name="car_info">Car info</string>
+    <string name="about_us">About us</string>
 </resources>
