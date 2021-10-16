@@ -28,7 +28,6 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.start_activity);
         init();
-
     }
 
     private void init(){
@@ -59,7 +58,6 @@ public class StartActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Wrong email or password!", Toast.LENGTH_SHORT).show();
                     }
                 }
-
 
             });
 

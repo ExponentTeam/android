@@ -95,4 +95,8 @@ public class PageFragmentCameraListening extends Fragment {
         });
         return inflate;
     }
+
+
+
+
 }
