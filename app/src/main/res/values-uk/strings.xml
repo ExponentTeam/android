@@ -1,0 +1,31 @@
+<resources>
+        <string name="app_name">ExponentAndroid</string>
+        <string name="title_activity_menu_activity">MainActivity</string>
+        <string name="title_home">Home</string>
+        <string name="title_dashboard">Dashboard</string>
+        <string name="title_notifications">Notifications</string>
+        <string name="title_activity_parcing_activity">MainActivity</string>
+        <string name="cameras">Камера</string>
+        <string name="jps">Джипіес</string>
+        <string name="car_info">Інформація про авто</string>
+        <string name="about_us">Про нас</string>
+        <string name="name">Імя: </string>
+        <string name="email">Пошта: </string>
+        <string name="helpLabel">Номер підтримки: </string>
+        <string name="helpNumber">+38 066 123 45 67</string>
+        <string name="number">Ваш номер: </string>
+        <string name="sessions">Ваші сесії </string>
+        <string name="quit">Вихід </string>
+        <string name="components">Ваші компоненти </string>
+        <string name="nameHint">Імя</string>
+        <string name="surnameHint">Прізвище</string>
+        <string name="emailHint">Пошта</string>
+        <string name="passwordHint">Пароль</string>
+        <string name="password2Hint">Ще раз пароль</string>
+        <string name="registration">Зареєструватись</string>
+        <string name="logIn">Увійти</string>
+        <string name="createAccount">Створити акаунт</string>
+        <string name="forgotPassword">Забули пароль?</string>
+        <string name="getHelp">Тоді вам сюди</string>
+
+</resources>

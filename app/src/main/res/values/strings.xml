@@ -11,12 +11,21 @@
     <string name="about_us">About us</string>
     <string name="name">Name: </string>
     <string name="email">Email: </string>
-    <string name="language">Language: </string>
     <string name="helpLabel">Help Number: </string>
     <string name="helpNumber">+38 066 123 45 67</string>
     <string name="number">Number: </string>
     <string name="sessions">Your Sessions </string>
     <string name="quit">Quit </string>
     <string name="components">Your Components </string>
+    <string name="nameHint">Name </string>
+    <string name="surnameHint">Surname</string>
+    <string name="emailHint">Email</string>
+    <string name="passwordHint">Password</string>
+    <string name="password2Hint">Re-enter password</string>
+    <string name="registration">Registration</string>
+    <string name="logIn">Log in</string>
+    <string name="createAccount">Create an account</string>
+    <string name="forgotPassword">Forgot your password?</string>
+    <string name="getHelp">Get help signing in</string>
 
 </resources>
