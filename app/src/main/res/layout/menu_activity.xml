@@ -6,27 +6,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="51dp"
-        android:layout_height="33dp"
-        android:layout_alignBottom="@+id/pager"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="351dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="9dp"
-        android:layout_marginBottom="633dp"
-        android:background="@drawable/ic_baseline_settings_24"
-        android:onClick="OnClickSettings" />
-
-    <androidx.viewpager.widget.ViewPager
+        <androidx.viewpager.widget.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="676dp">
 
     </androidx.viewpager.widget.ViewPager>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/ic_baseline_settings_24"
+        android:onClick="OnClickSettings" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"

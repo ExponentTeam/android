@@ -3,13 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3854166666666667" />
         <entry key="app/src/main/res/drawable/back.xml" value="0.2604166666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_pause_24.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/drawable/navigation_background_colors.xml" value="0.3854166666666667" />
         <entry key="app/src/main/res/layout/about_us.xml" value="0.26992753623188404" />
-        <entry key="app/src/main/res/layout/cameras_listening.xml" value="0.3120471014492754" />
-        <entry key="app/src/main/res/layout/menu_activity.xml" value="0.307518115942029" />
-        <entry key="app/src/main/res/layout/registration_activity.xml" value="0.24427083333333333" />
+        <entry key="app/src/main/res/layout/cameras_listening.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/car_info.xml" value="0.31261022927689597" />
+        <entry key="app/src/main/res/layout/jps.xml" value="0.2332236842105263" />
+        <entry key="app/src/main/res/layout/menu_activity.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/registration_activity.xml" value="0.25" />
         <entry key="app/src/main/res/layout/settings_activity.xml" value="0.375" />
-        <entry key="app/src/main/res/layout/start_activity.xml" value="0.307518115942029" />
+        <entry key="app/src/main/res/layout/start_activity.xml" value="0.335" />
       </map>
     </option>
   </component>
@@ -18,5 +25,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.375" />
+      </ProjectState>
+    </option>
   </component>
 </project>
