@@ -25,7 +25,7 @@
         <string name="registration">Зареєструватись</string>
         <string name="logIn">Увійти</string>
         <string name="createAccount">Створити акаунт</string>
-        <string name="forgotPassword">Забули пароль?</string>
-        <string name="getHelp">Тоді вам сюди</string>
+        <string name="forgotPassword">Забули пароль? Тоді вам сюди</string>
+        <string name="carProtector">Car Protector</string>
 
 </resources>

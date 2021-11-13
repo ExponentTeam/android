@@ -5,34 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegistrationActivity"
-    android:background="@drawable/welcome">
+    android:background="#e6eaf5">
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="411dp"
-        android:layout_height="359dp"
+
+    <TextView
+        android:id="@+id/carProtector2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="@string/carProtector"
+        android:textColor="#000"
+        android:textSize="45sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/name_edittext"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="301dp"
-        android:layout_height="62dp"
-        android:layout_marginBottom="36dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="205dp"
+        android:layout_height="190dp"
+        app:layout_constraintBottom_toTopOf="@+id/carProtector2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="0.063"
-        app:srcCompat="@drawable/password_image" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/car_protector" />
 
     <EditText
         android:id="@+id/name_edittext"
-        android:layout_width="283dp"
-        android:layout_height="40dp"
-        android:background="@drawable/field"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/my_button_bg"
+        android:paddingLeft="20sp"
         android:ems="10"
         android:hint="@string/nameHint"
         android:textColorHint="#88889a"
@@ -46,9 +50,10 @@
 
     <EditText
         android:id="@+id/surname_edittext"
-        android:layout_width="283dp"
-        android:layout_height="40dp"
-        android:background="@drawable/field"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/my_button_bg"
+        android:paddingLeft="20sp"
         android:ems="10"
         android:hint="@string/surnameHint"
         android:textColorHint="#88889a"
@@ -63,9 +68,10 @@
 
     <EditText
         android:id="@+id/password2_edittext"
-        android:layout_width="283dp"
-        android:layout_height="40dp"
-        android:background="@drawable/field"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/my_button_bg"
+        android:paddingLeft="20sp"
         android:ems="10"
         android:hint="@string/passwordHint"
         android:textColorHint="#88889a"
@@ -80,9 +86,10 @@
 
     <EditText
         android:id="@+id/reenter_password2_edittext"
-        android:layout_width="283dp"
-        android:layout_height="40dp"
-        android:background="@drawable/field"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/my_button_bg"
+        android:paddingLeft="20sp"
         android:ems="10"
         android:hint="@string/password2Hint"
         android:textColorHint="#88889a"
@@ -97,26 +104,26 @@
 
     <EditText
         android:id="@+id/email2_edittext"
-        android:layout_width="283dp"
-        android:layout_height="40dp"
-        android:background="@drawable/field"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="@drawable/my_button_bg"
+        android:paddingLeft="20sp"
         android:ems="10"
         android:hint="@string/emailHint"
-        android:textColorHint="#88889a"
-        android:textColor="#88889a"
         android:inputType="textEmailAddress"
+        android:textColor="#88889a"
+        android:textColorHint="#88889a"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.62" />
 
     <Button
         android:id="@+id/registration2_button"
-        android:layout_width="283dp"
-        android:layout_height="40dp"
-        android:background="@drawable/button"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:background="#4e3883"
         android:onClick="onClickRegistration"
         android:text="@string/registration"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
@@ -124,9 +131,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913"
+        app:layout_constraintVertical_bias="0.878"
         tools:ignore="OnClick" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

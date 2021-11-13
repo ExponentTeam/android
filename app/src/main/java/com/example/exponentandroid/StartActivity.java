@@ -36,7 +36,6 @@ public class StartActivity extends AppCompatActivity {
         email_edittext = findViewById(R.id.email_edittext);
         password_edittext = findViewById(R.id.password_edittext);
         Auth = FirebaseAuth.getInstance();
-        Test = (Button) findViewById(R.id.button);
     }
 
     public void OnClickTest(View view){
