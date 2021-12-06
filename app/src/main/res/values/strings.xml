@@ -27,5 +27,10 @@
     <string name="createAccount">New to car protector? Sign up</string>
     <string name="forgotPassword">Forgot your password? Get help signing in</string>
     <string name="carProtector">Car Protector</string>
+    <string name="alarmOn">Turn on the alarm</string>
+    <string name="alarmOff">Turn off the alarm</string>
+    <string name="prices">Prices</string>
+    <string name="order">Order</string>
+    <string name="website">Website</string>
 
 </resources>

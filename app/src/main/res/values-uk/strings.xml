@@ -27,5 +27,11 @@
         <string name="createAccount">Створити акаунт</string>
         <string name="forgotPassword">Забули пароль? Тоді вам сюди</string>
         <string name="carProtector">Car Protector</string>
+        <string name="alarmOn">Включити сигналізацію</string>
+        <string name="alarmOff">Виключити сигналізацію</string>
+        <string name="prices">Ціни</string>
+        <string name="order">Замовити</string>
+        <string name="website">Сайт</string>
+
 
 </resources>
